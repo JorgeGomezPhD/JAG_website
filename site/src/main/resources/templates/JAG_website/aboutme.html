@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Jorge A. Gomez PhD</title>
+<link th:replace="JAG_website/fragments/headLinks">
+</head>
+<body>
+	<!--Adding in nav bar link -->
+	<div th:replace="JAG_website/fragments/navbar"></div>
+	<!-- about me section -->
+	<div class="aboutme">
+		<h1>About me</h1>
+		<h8> My name is Jorge A. Gomez. I graduated from the University
+		of Texas at San Antonio (UTSA) with a <a
+			href="https://www.utsa.edu/biology/phd-neuro" target="blank1">PhD
+			in Neuroscience</a> in the spring of 2018.<br>
+		My work during my graduate training primarily focused on the interaction between astrocytes found within the Ventral tegmental area (VTA) <br>
+		and the neighboring dopamine and GABA neurons.
+		Here is a full list of my <a
+			href="https://pubmed.ncbi.nlm.nih.gov/?term=gomez+paladini"
+			target="blank1">publications</a>. If you want to contact me click on
+		the 
+		corresponding <br> link above. If you are intrested in learning more about the UTSA PhD program click the link above or
+		contact me for more information. </h8>
+	</div>
+	<!-- Inserting Carousel -->
+	<div th:replace="JAG_website/fragments/carousel"></div>
+
+	<!--Importing bootstrap scripts  -->
+	<script th:replace="JAG_website/fragments/scriptLinks"></script>
+</body>
+</html>

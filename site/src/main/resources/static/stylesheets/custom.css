@@ -1,0 +1,35 @@
+ body {
+  background-color: #15f2c7;
+   color: white;
+}
+
+}
+.button {
+	background-color: red;
+}
+ .aboutme {
+   text-align: center;
+}
+.sublist {
+	color: black;
+}
+
+#entryField{
+	height:10em;
+	/* width: 80%; */
+}
+
+h2 {
+	text-align: center; 
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+#welcomeLabel {
+	text-align: center;
+}

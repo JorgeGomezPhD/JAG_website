@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Jorge A. Gomez PhD</title>
+<link th:replace="JAG_website/fragments/headLinks">
+</head>
+<body>
+	<!--Adding in nav bar link -->
+	<div th:replace="JAG_website/fragments/navbar"></div>
+	<!--Sign up for my mailing list  -->
+	<h1 id="welcomeLabel">Welcome to my page</h1>
+	<h2 id="welcomeLabel">If you would like to learn more about me click on the tabs above. <br>
+	You can also ask me a question and sign up for my mailing list below </h2>
+	<h3>Subscribe to my mailing list below</h3>
+	<div th:replace="JAG_website/fragments/mailList"></div>
+
+	<!--Importing bootstrap scripts  -->
+	<script th:replace="JAG_website/fragments/scriptLinks"></script>
+</body>
+</html>
